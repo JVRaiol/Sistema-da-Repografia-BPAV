@@ -1,3 +1,67 @@
+                                                            SISTEMA DA REPOGRAFIA BPAV
+
+1. Visão Geral
+
+O Sistema da Repografia BPAV foi desenvolvido para calcular e controlar a renda e serviços de reprografia da Biblioteca Pública Arthur Vianna, incluindo 
+cópias, impressões e digitalizações. Ele permite inserir os valores dos serviços realizados e obter uma estimativa de renda, além de salvar e atualizar 
+esses dados.
+
+
+2. Funcionalidades
+
+2.1 Controle de Serviços 
+
+Permite que o departamento tenha um controle computado sobre a quantidade de serviços realizados diariamente.
+
+2.2 Cálculo Financeiro
+
+O Sistema também realiza a contabilidade do departamento com base nos dados inseridos provindos da quantidade de seviços. Calcula a receita e despesas, e 
+faz uma relação da renda provinda em espécie ou pix.
+
+2.3 Leitura e Escrita de dados
+
+Funcionalidade que permite o programa ter acesso a dados em documentos pdf ou em arquivos txt, computar e calcular esses dados para relatório.
+
+2.4 Geração de relatório em pdf
+
+O Programa é capaz de criar nativamente um documento em pdf contendo as informações finaceiras e de serviços diários do departamento, contendo uma 
+Estrura temática e a logo da Biblioteca Pública. O relatório em pdf é essencial para consulta da chefia imediata e controle das atividades realizadas 
+no setor.
+
+2.5 Gravação de dados
+
+Todos os dados são gravados na memória localizada no diretório do programa.
+
+2.6 Calculadora de Serviços
+
+A interface gráfica possui uma calculadora rápida que permite o funcionário calcular o valor a cobrar de um serviço de forma prática, sem necessidade
+de utilizar calculadora externa.
+
+
+3. Requisitos para executar esse programa localmente
+
+Python3 instalado na máquina, disponível em: https://www.python.org/downloads/
+
+pasta Sistem localizada no Disco C
+
+instalação das seguintes bibliotecas: tkinter, pil, OS, datetime, openpyxl, reportlab.
+
+
+4. Melhorias Futuras
+
+Implementação de um banco de dados para armazenar histórico de serviços.
+
+Inclusão de relatórios detalhados sobre a renda mensal.
+
+Melhorias na interface para facilitar a usabilidade.
+
+
+
+
+
+
+
+
 
 
 
